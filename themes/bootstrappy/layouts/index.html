@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+    <main role="main">
+  
+      <section class="jumbotron text-center" style="padding-bottom: 2rem;">
+        <h1 class="jumbotron-heading">{{ .Title }}</h1>
+        <div class="container">
+          <p class="lead text-muted">{{ .Content }}</p>
+      </section>
+  
+      <div class="album py-5 bg-light">
+        <div class="container">
+          
+            <div class="row justify-content-center">
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card mb-4 box-shadow text-center">
+                    <div class="card-body">
+                        <p class="card-text">Are you an undergraduate?</p>
+                        <a href="/accounts/get-account-name" class="btn btn-primary my-2">
+                        Learn about the department
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                
+                
+
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card md-4 box-shadow text-center">
+                        <div class="card-body">
+                            <p class="card-text">Master's student?</p>
+                            <a href="/accounts/passphrase-reset" class="btn btn-primary my-2">Explore department resources</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card md-4 box-shadow text-center">
+                        <div class="card-body">
+                            <p class="card-text">Going for your PhD?</p>
+                            <a href="/accounts/passphrase-reset" class="btn btn-primary my-2">View advanced information</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{{ end }}

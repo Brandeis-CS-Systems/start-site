@@ -1,0 +1,4 @@
+baseURL = "https://start.cs.brandeis.edu/"
+languageCode = "en-us"
+title = "Brandeis CS Systems Office Start Page"
+theme = "bootstrappy"
